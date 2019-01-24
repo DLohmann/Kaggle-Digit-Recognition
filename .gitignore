@@ -13,10 +13,10 @@
 *.o
 *.d
 
-# Ignore .mp4 and .zip video files (used to film conditions that caused an error, to reference them later)
+# Ignore .mp4 and video files (used to film conditions that caused an error, to reference them later), but allow zipped data
 *.mp4
-*.zip
+#*.zip
 
-# Ignore training and testing data (which is usually in a .csv format)
+# Ignore training and testing data (which is in a .csv format)
 *.csv
 
